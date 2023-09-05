@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: samagra-docparser
+Version: 0.1.2
+Summary: Document Parser built to extract information from pdfs.
+Author: Ishaan Shrivastava
+Author-email: shrivastava.9@iitj.ac.in
+License: MIT
+Keywords: tesseract,ocr,multilingual,pdf,parser,document

@@ -1,0 +1,16 @@
+README.md
+setup.py
+docparser/__init__.py
+docparser/parser.py
+docparser/pipeline_clip.py
+docparser/pipeline_dict.py
+docparser/utils.py
+docparser/data/__init__.py
+docparser/data/tesseract_langs.py
+samagra_docparser.egg-info/PKG-INFO
+samagra_docparser.egg-info/SOURCES.txt
+samagra_docparser.egg-info/dependency_links.txt
+samagra_docparser.egg-info/requires.txt
+samagra_docparser.egg-info/top_level.txt
+tests/__init__.py
+tests/sample_test.py

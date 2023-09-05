@@ -1,0 +1,6 @@
+pypdf2
+numpy
+pandas
+ftfy
+regex
+tqdm
