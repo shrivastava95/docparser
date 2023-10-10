@@ -1,9 +1,8 @@
 # Requirements
 
 - First make sure [PyTorch - 1.7.1 (or later)](https://pytorch.org/get-started/locally/) and torchvision are installed.
-- `pip install numpy pandas ftfy regex tqdm`
 - `pip install git+https://github.com/openai/CLIP.git` - OpenAI's CLIP model for matching text with images
-- `pip install PyPDF2`
+- `pip install numpy pandas ftfy regex tqdm PyPDF2 python-dotenv openai`
 - Setup `pdf2image`. Instructions given here:
 
     **Linux and MacOS**
@@ -21,6 +20,5 @@
 - Setup `pytesseract`. Instructions given here:
 
     **Linux and MacOS**
-
+    1. Setup the latest version of pytesseract (5+) using https://studysection.com/blog/quick-guide-to-install-and-remove-tesseract-ocr-5-on-ubuntu-18-04/
     **Windows**
-- `pip install python-dotenv`
