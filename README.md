@@ -21,4 +21,6 @@
 
     **Linux and MacOS**
     1. Setup the latest version of pytesseract (5+) using https://studysection.com/blog/quick-guide-to-install-and-remove-tesseract-ocr-5-on-ubuntu-18-04/
+    2. Make sure the correct tesseract language packages are installed for your use. Helpful guide - https://ocrmypdf.readthedocs.io/en/latest/languages.html
     **Windows**
+    1. 
