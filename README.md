@@ -6,9 +6,8 @@
 - Setup `pdf2image`. Instructions given here:
 
     **Linux and MacOS**
-    1. setup poppler using https://pdf2image.readthedocs.io/en/latest/installation.html
-    2. remove the `poppler_path` argument from `convert_from_path` function call
-    3. `pip install pdf2image`
+    1. setup poppler using  the isntructions given in https://pdf2image.readthedocs.io/en/latest/installation.html
+    2. `pip install pdf2image`
 
     **Windows**
     1. Download the latest poppler package from https://github.com/oschwartz10612/poppler-windows/releases/ which is the most up-to-date.
