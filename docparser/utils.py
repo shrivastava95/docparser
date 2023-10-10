@@ -3,6 +3,7 @@ import os
 import json
 import PyPDF2
 from pdf2image import convert_from_path
+import sys
 
 from .data import lang_mapping
 
@@ -55,10 +56,17 @@ def group_pages(page_settings):
 
 
 def get_page_images(pdf_path, dpi, first_page, last_page):
-    pages = convert_from_path(
-        pdf_path,
-        dpi,
-        poppler_path=r'C:\ai_sem_7\poppler-0.68.0_x86\poppler-0.68.0\bin',
-        first_page=first_page, last_page=last_page,
-    )
+    if sys.platform == 'win32':
+        pages = convert_from_path(
+            pdf_path,
+            dpi,
+            poppler_path=r'C:\ai_sem_7\poppler-0.68.0_x86\poppler-0.68.0\bin',
+            first_page=first_page, last_page=last_page,
+        )
+    else:
+        pages = convert_from_path(
+            pdf_path,
+            dpi, 
+            first_page=first_page, last_page=last_page,
+        )
     return pages
